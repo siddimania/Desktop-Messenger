@@ -1,8 +1,6 @@
 
 /*
-@author siddhartha dimania
-amarjeet singh
-
+@author: siddhartha dimania
 */
 
 package com.example.comdroid;

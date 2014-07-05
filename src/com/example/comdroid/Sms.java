@@ -1,7 +1,10 @@
+/*
+@author: siddhartha dimania
+*/
+
 package com.example.comdroid;
 
 import com.comdroid.R;
-
 import android.app.Activity;
 import android.os.Bundle;
 import android.telephony.SmsManager;

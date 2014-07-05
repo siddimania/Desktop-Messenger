@@ -1,8 +1,10 @@
+/*
+@author: siddhartha dimania
+*/
+
 package com.example.comdroid;
 
-
 import com.comdroid.R;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;

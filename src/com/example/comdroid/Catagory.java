@@ -1,3 +1,7 @@
+/*
+@author: siddhartha dimania
+*/
+
 package com.example.comdroid;
 
 import com.comdroid.R;
