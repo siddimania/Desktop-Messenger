@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1C2841" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/testView2"
+        android:layout_marginTop="101dp"
+        android:src="@drawable/d_effect" />
+
+    <TextView
+        android:id="@+id/testView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:text="Android Notification"
+        >
+    </TextView>
+    
+     <TextView
+        android:id="@+id/testView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="28dp"
+        android:layout_below="@+id/testView1"
+        android:layout_centerHorizontal="true"
+        android:text="Getting Started"
+        android:textStyle="bold"  
+        android:textColor="#ffffff"
+        >
+    </TextView>
+ 
+</RelativeLayout>

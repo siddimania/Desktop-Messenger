@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:geekui="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_list"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical" 
+    
+    android:background="@drawable/shadow" >
+    
+    
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Heading"
+        android:fontFamily="droid-serif"
+        android:textStyle="normal"
+        android:textColor="#33bae7"
+        android:textSize="30dp" 
+     />
+   
+    
+    <View 
+        android:id="@+id/view1"
+        android:layout_below="@id/heading"
+        android:layout_width="fill_parent"
+        android:layout_height="0.1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#C0C0C0"
+        />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:layout_below="@id/view1"
+        android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+        android:text="description"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="normal"
+        android:textSize="17dp"
+        android:typeface="monospace" />
+
+    
+
+</RelativeLayout>
